@@ -1,0 +1,142 @@
+.tophead{
+    background-image: linear-gradient(to right,  red, green, yellow);
+    text-decoration: underline;
+    text-align: center;
+}
+
+.topsec{
+    border: 2px solid rgb(216, 22, 22);
+    background-color: skyblue;
+    width: 55%;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 18px;
+}
+
+.topsec ul{
+    margin: auto;
+}
+
+.mainbox{
+    border: 1px solid red;
+    border-radius: 10px;
+    height: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    justify-content: space-evenly;
+
+}
+
+.box{
+     border: 2px solid green;
+     width: 30%;
+     height: 51px;
+     margin-bottom: 1px;
+     border-radius: 5px; 
+     text-align: center;
+     color: darkblue;
+     font-weight: bold;
+}
+
+.tophead1{
+    background-image: linear-gradient(to right, red, yellow, red);
+    text-align: center;
+    text-decoration: underline red;
+    padding-bottom: 5px;
+    margin: 20px 0px 20px 0px;
+    height: 35px;
+}
+
+.mainbox1{
+    background-image: radial-gradient(rgb(38, 66, 224),rgb(141, 236, 141));
+    display: flex;
+    border: 2px solid darkred;
+    justify-content: space-evenly;
+    
+}
+.box1{
+    border: 2px solid green;
+    width: 230px;   
+    line-height: 22px;
+    text-align: center;
+    color: darkgreen;
+    text-decoration: underline rgb(255, 0, 0);
+    font-weight: bolder;
+    margin: 70px 0 70px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: rgb(233, 226, 120);
+}
+
+.tophead2{
+    background-color: rgb(225, 36, 36);
+    height: 45px;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.grid_sec{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: 14vh 20vh;
+    gap: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.item1{
+    background-color: rgb(34, 219, 74);
+    grid-column: 1 / 4;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.item2{
+    background-color: deepskyblue;
+    grid-column: 4 / 7;
+    color: white;
+    font-size: 20px;
+}
+
+.item3{
+    background-color: rgb(23, 79, 232);
+    grid-column: 7 / 10;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    font-size: 20px;  
+}
+
+.item4{
+    background-color: black;
+    grid-column: 10;
+    color: white;
+    grid-row: 1 /7;
+    font-size: 18px;
+    width: 90px;
+    text-decoration: underline;
+}
+
+.item5{
+    background-color: orange;
+    grid-column: 1 / 10;
+    grid-row: 2 /7;
+    color: white;
+    text-align: left;
+    font-size: 30px;
+}
+
+.tophead3{
+    background-color: rgb(219, 211, 224);
+    margin: 10px 0 20px 0;
+    height: 28px;
+    font-size: 22px;
+    text-align: center;
+}
+
